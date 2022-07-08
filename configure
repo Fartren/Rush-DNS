@@ -1,0 +1,4 @@
+#/bin/sh
+
+echo JSON_CFLAGS="$(pkg-config --cflags json-c)"
+echo JSON_LDLAGS="$(pkg-config --libs json-c)"

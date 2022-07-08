@@ -1,0 +1,16 @@
+    {"Zone": [
+        {
+          "name": "example.com",
+          "type": "SOA",
+          "TTL": 3600,
+          "data": ["ns0.example.com. postmaster.example.com. 2020092501 86400 3600 604800 3600"]
+        },
+        {
+          "name": "example.com",
+          "type": "NS",
+          "Vous êtes": "Taquin M'sieur...",
+          "TTL": 86400,
+          "data": ["ns0.example.com.", "ns1.example.com."]
+        }
+      ]
+    }

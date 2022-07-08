@@ -1,0 +1,21 @@
+    {"Zone": [
+        {
+          "name": "example.com",
+          "type": "SOA",
+          "TTL": 3600,
+          "data": ["ns0.example.com. postmaster.example.com. 2020092501 86400 3600 604800 3600"]
+        },
+        {
+          "name": "example.com",
+          "type": 42,
+          "TTL": 3600,
+          "data": ["192.0.2.1"]
+        },
+        {
+          "name": "ns2.sub.zone.example.com",
+          "type": "AAAA",
+          "TTL": 86400,
+          "data": ["2001:DB8::84"]
+        }
+      ]
+    }

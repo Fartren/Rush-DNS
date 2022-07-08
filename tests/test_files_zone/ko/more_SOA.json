@@ -1,0 +1,63 @@
+    {"Zone": [
+        {
+          "name": "example.com",
+          "type": "SOA",
+          "TTL": 3600,
+          "data": ["ns0.example.com. postmaster.example.com. 2020092501 86400 3600 604800 3600"]
+        },
+        {
+          "name": "example.com",
+          "type": "NS",
+          "TTL": 86400,
+          "data": ["ns0.example.com.", "ns1.example.com."]
+        },
+        {
+          "name": "example.com",
+          "type": "A",
+          "TTL": 3600,
+          "data": ["192.0.2.1"]
+        },
+        {
+          "name": "example.com",
+          "type": "TXT",
+          "TTL": 7200,
+          "data": ["\"Hello there; how are you?\""]
+        },
+        {
+          "name": "ent.sub.example.com",
+          "type": "TXT",
+          "TTL": 86400,
+          "data": ["\"broken ENT was here !\""]
+        },
+        {
+          "name": "site.com",
+          "type": "SOA",
+          "TTL": 7200,
+          "data": ["ns0.site.com"]
+        },
+        {
+          "name": "www-dev.example.com",
+          "type": "CNAME",
+          "TTL": 7200,
+          "data": ["www.example.com."]
+        },
+        {
+          "name": "ns0.example.com",
+          "type": "A",
+          "TTL": 86400,
+          "data": ["192.0.2.3"]
+        },
+        {
+          "name": "soa1.com",
+          "type": "SOA",
+          "TTL": 3600,
+          "data": ["ns0.example.com. postmaster.example.com. 2020092501 86400 3600 604800 3600"]
+        },
+        {
+          "name": "soa2.com",
+          "type": "SOA",
+          "TTL": 3600,
+          "data": ["ns0.example.com. postmaster.example.com. 2020092501 86400 3600 604800 3600"]
+        }
+      ]
+    }

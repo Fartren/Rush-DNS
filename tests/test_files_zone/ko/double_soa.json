@@ -1,0 +1,39 @@
+    {"Zone": [
+        {
+          "name": "example.com",
+          "type": "SOA",
+          "TTL": 3600,
+          "data": ["ns0.example.com. postmaster.example.com. 2020092501 86400 3600 604800 3600"]
+        },
+	{
+	  "name": "toto.fr",
+	  "type": "SOA",
+	  "TTL": 3600,
+	  "data": ["ououi.aller"]
+	},
+        {
+          "name": "example.com",
+          "type": "NS",
+          "TTL": 86400,
+          "data": ["ns0.example.com.", "ns1.example.com."]
+        },
+        {
+          "name": "example.com",
+          "type": "TXT",
+          "TTL": 7200,
+          "data": ["\"Hello there; how are you?\""]
+        },
+        {
+          "name": "ent.sub.example.com",
+          "type": "TXT",
+          "TTL": 86400,
+          "data": ["\"broken ENT was here !\""]
+        },
+        {
+          "name": "www.example.com",
+          "type": "AAAA",
+          "TTL": 7200,
+          "data": ["2001:DB8::1"]
+        }
+      ]
+    }

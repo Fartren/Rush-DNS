@@ -1,0 +1,7 @@
+---
+Checks: '*,-altera-unroll-loops,-llvm-header-guard'
+CheckOptions:
+  - key: readability-function-size.StatementThreshold
+    value: 25
+  - key: readability-function-size.ParameterThreshold
+    value: 4

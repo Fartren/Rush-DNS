@@ -1,0 +1,249 @@
+    {"Zone": [
+        {
+          "name": "example.com",
+          "type": "SOA",
+          "TTL": 3600,
+          "data": ["ns0.example.com. postmaster.example.com. 2020092501 86400 3600 604800 3600"]
+        },
+        {
+          "name": "example.com",
+          "type": "NS",
+          "TTL": 86400,
+          "data": ["ns0.example.com.", "ns1.example.com."]
+        },
+        {
+          "name": "example.com",
+          "type": "A",
+          "TTL": 3600,
+          "data": ["192.0.2.1"]
+        },
+        {
+          "name": "example.com",
+          "type": "TXT",
+          "TTL": 7200,
+          "data": ["\"Hello there; how are you?\""]
+        },
+        {
+          "name": "ent.sub.example.com",
+          "type": "TXT",
+          "TTL": 86400,
+          "data": ["\"broken ENT was here !\""]
+        },
+        {
+          "name": "www.example.com",
+          "type": "AAAA",
+          "TTL": 7200,
+          "data": ["2001:DB8::1"]
+        },
+        {
+          "name": "ns0.example.com",
+          "type": "A",
+          "TTL": 86400,
+          "data": ["192.0.2.3"]
+        },
+        {
+          "name": "ns1.example.com",
+          "type": "A",
+          "TTL": 7200,
+          "data": ["192.0.2.4"]
+        },
+        {
+          "name": "sub.zone.example.com",
+          "type": "NS",
+          "TTL": 86400,
+          "data": ["ns1.sub.zone.example.com.", "ns2.sub.zone.example.com."]
+        },
+        {
+          "name": "ns1.sub.zone.example.com",
+          "type": "A",
+          "TTL": 86400,
+          "data": ["192.0.2.42"]
+        },
+        {
+          "name": "ns1.sub.zone.example.com",
+          "type": "AAAA",
+          "TTL": 86400,
+          "data": ["2001:DB8::42"]
+        },
+        {
+          "name": "ns2.sub.zone.example.com",
+          "type": "A",
+          "TTL": 86400,
+          "data": ["192.0.2.84"]
+        },
+        {
+          "name": "ns2.sub.zone.example.com",
+          "type": "AAAA",
+          "TTL": 86400,
+          "data": ["2001:DB8::84"]
+        },
+        {
+          "name": "ns230.example.com",
+          "type": "A",
+          "TTL": 86400,
+          "data": ["192.0.2.3"]
+        },
+        {
+          "name": "ns123.example.com",
+          "type": "A",
+          "TTL": 7200,
+          "data": ["192.0.2.4"]
+        },
+        {
+          "name": "sub.zonefl.example.com",
+          "type": "NS",
+          "TTL": 86400,
+          "data": ["ns1.sub.zone.example.com.", "ns2.sub.zone.example.com."]
+        },
+        {
+          "name": "ns125.sub.zone.example.com",
+          "type": "A",
+          "TTL": 86400,
+          "data": ["192.0.2.42"]
+        },
+        {
+          "name": "ns341.sub.zone.example.com",
+          "type": "AAAA",
+          "TTL": 86400,
+          "data": ["2001:DB8::42"]
+        },
+        {
+          "name": "ns256.sub.zone.example.com",
+          "type": "A",
+          "TTL": 86400,
+          "data": ["192.0.2.84"]
+        },
+        {
+          "name": "ns267.sub.zone.example.com",
+          "type": "AAAA",
+          "TTL": 86400,
+          "data": ["2001:DB8::84"]
+        },
+        {
+          "name": "ns2300.example.com",
+          "type": "A",
+          "TTL": 86400,
+          "data": ["192.0.2.3"]
+        },
+        {
+          "name": "ns1230.example.com",
+          "type": "A",
+          "TTL": 7200,
+          "data": ["192.0.2.4"]
+        },
+        {
+          "name": "sub.zonefl0.example.com",
+          "type": "NS",
+          "TTL": 86400,
+          "data": ["ns1.sub.zone.example.com.", "ns2.sub.zone.example.com."]
+        },
+        {
+          "name": "ns125.sub0.zone.example.com",
+          "type": "A",
+          "TTL": 86400,
+          "data": ["192.0.2.42"]
+        },
+        {
+          "name": "ns3410.sub.zone.example.com",
+          "type": "AAAA",
+          "TTL": 86400,
+          "data": ["2001:DB8::42"]
+        },
+        {
+          "name": "ns2560.sub.zone.example.com",
+          "type": "A",
+          "TTL": 86400,
+          "data": ["192.0.2.84"]
+        },
+        {
+          "name": "ns2670.sub.zone.example.com",
+          "type": "AAAA",
+          "TTL": 86400,
+          "data": ["2001:DB8::84"]
+        },
+        {
+          "name": "ns23000.example.com",
+          "type": "A",
+          "TTL": 86400,
+          "data": ["192.0.2.3"]
+        },
+        {
+          "name": "ns12300.example.com",
+          "type": "A",
+          "TTL": 7200,
+          "data": ["192.0.2.4"]
+        },
+        {
+          "name": "sub34.zonefl0.example.com",
+          "type": "NS",
+          "TTL": 86400,
+          "data": ["ns1.sub.zone.example.com.", "ns2.sub.zone.example.com."]
+        },
+        {
+          "name": "ns1255.sub0.zone.example.com",
+          "type": "A",
+          "TTL": 86400,
+          "data": ["192.0.2.42"]
+        },
+        {
+          "name": "ns34102.sub.zone.example.com",
+          "type": "AAAA",
+          "TTL": 86400,
+          "data": ["2001:DB8::42"]
+        },
+        {
+          "name": "ns25606.sub.zone.example.com",
+          "type": "A",
+          "TTL": 86400,
+          "data": ["192.0.2.84"]
+        },
+        {
+          "name": "ns26780.sub.zone.example.com",
+          "type": "AAAA",
+          "TTL": 86400,
+          "data": ["2001:DB8::84"]
+        },
+        {
+          "name": "ns230040.example.com",
+          "type": "A",
+          "TTL": 86400,
+          "data": ["192.0.2.3"]
+        },
+        {
+          "name": "ns123300.example.com",
+          "type": "A",
+          "TTL": 7200,
+          "data": ["192.0.2.4"]
+        },
+        {
+          "name": "sub342.zonefl0.example.com",
+          "type": "NS",
+          "TTL": 86400,
+          "data": ["ns1.sub.zone.example.com.", "ns2.sub.zone.example.com."]
+        },
+        {
+          "name": "ns12355.sub0.zone.example.com",
+          "type": "A",
+          "TTL": 86400,
+          "data": ["192.0.2.42"]
+        },
+        {
+          "name": "ns341302.sub.zone.example.com",
+          "type": "AAAA",
+          "TTL": 86400,
+          "data": ["2001:DB8::42"]
+        },
+        {
+          "name": "ns256506.sub.zone.example.com",
+          "type": "A",
+          "TTL": 86400,
+          "data": ["192.0.2.84"]
+        },
+        {
+          "name": "ns266780.sub.zone.example.com",
+          "type": "AAAA",
+          "TTL": 86400,
+          "data": ["2001:DB8::84"]
+        }
+      ]
+    }

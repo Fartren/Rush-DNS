@@ -1,0 +1,15 @@
+    {"Zone": [
+        {
+          "name": "example.com",
+          "type": "SOA",
+          "TTL": 3600,
+          "data": ["ns0.example.com."]
+        },
+        {
+          "name": "example.com",
+          "type": "A",
+          "TTL": 3600,
+          "data": ["192.0.2.1"]
+        }
+      ]
+    }
